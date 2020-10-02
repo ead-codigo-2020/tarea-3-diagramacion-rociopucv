@@ -1,0 +1,108 @@
+.algo:hover{
+    padding: 123px;
+}
+body{
+    padding: 0; 
+    margin: 0; 
+    background-color: white;
+}
+
+
+.titulo{
+     font-size: 60px; 
+     font-family:  sans-serif; 
+     color: white;
+}
+.lista1{
+    display: flex;
+    overflow: hidden;
+    background-color:rgb(17, 20, 37);
+    text-align: left;
+    margin-top: 5px;
+    
+}
+.lista1 li{
+    float: left;
+    display: block;
+    color:white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    
+}
+.lista2 li{
+    float: right;
+    display: block;
+    color:white(161, 62, 62);
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.search-container{
+    display: flex;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+    }
+
+    .lista3{
+        display: flex;
+        background-color:rgba(0, 0, 0, 0.5);
+        font-style: normal;
+    }
+    .lista3 li{ 
+        float: left;
+      display: block;
+      color:white;
+      text-align: center;
+      padding: 14px 10px;
+      text-decoration: none;
+      font-size: 17px;
+      border: 1px solid grey;
+    }
+    .lista3 li:hover{
+    background-color:rgb(32, 170, 204);
+    
+    }
+.container{
+    margin: 3px; 
+    background:url(./img/puertoSA.jpg)no-repeat center center fixed;
+    background-size: cover;
+    width:1342px;
+    height:600px;
+}
+.ndnav li{display: inline; 
+    list-style: none; 
+    color: rgb(22, 172, 177); 
+    font-weight: bold; 
+    font-size: 60px;
+}
+.parrafo4{ 
+    text-align: center;
+}
+.imgsos{ 
+    margin:0px; 
+    background:url(./img/4.jpg)no-repeat center center fixed;
+    white:100px;
+    height:500px;
+    background-size: cover;
+    text-align: center;
+}
+.cd{
+    margin: 40px; 
+    background-color: white;
+}
+.sostenibilidad{
+    padding: 5px;
+    background-color: white;
+
+}
+.destacamos{
+    background-color: rgb(202, 202, 202); 
+    padding: 40px;
+}
+.transparencia{
+    background-image:url(./img/a.jpg) ; 
+    padding: 40px;
+}
