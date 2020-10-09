@@ -2,36 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="./estilo.css">
-    <title>Tarea</title>
-    
+    <title>Tarea 3</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
+        <img class="imagen-logo" src="./img/logo.png" alt="logo">
         <div class="lista1">
-           <img src="./img/logo.png" alt="logo"style="width: 150px; height: 100px; margin-left: 30px;">
-            <ul>
-                <li>viento</li>
-                <li>visibilidad</li>
-                <li>oleaje</li>
+            <ul class="lista-icons">
+                <li><img src="./img/viento.png" alt="" style="width: 20px; height: 20px;"> viento</li>
+                <li><img src="./img/ojo - copia.png" alt="" style="width: 20px; height: 20px;">visibilidad</li>
+                <li><img src="./img/o.png" alt="" style="width: 20px; height: 20px;">oleaje</li>
                 <br>
             </ul>
-                <ul class="lista2">
+            
+            <ul class="lista2">
                 <a href="#"><li>Noticias</li></a>
                 <a href="#"><li>Eventos</li></a>
                 <a href="#"><li>Mapa del sitio</li></a>
                 <a href="#"><li>Contacto</li></a>
             </ul>
             <div class="search-container">
-           <form action="text" placeholder="busquedad"nane="search"
- <button type=<i class="fa fa search" style="background-color: white;">buscar</i><ing src=""widht="13" height="13"></button></ing></div>
+                <form action="/action_page.php">
+                  
+                  <input type="text" placeholder="Buscar.." name="search" style="background-color: black; color: white;">
+                  <button type=<i class="fa fa-search" style="background-color: black; color: white;"></i><img src="./img/buscar.png" alt="lupa" style="widows: 25px; height:25px;"></button>
+                  
+                </form>
+              
+
+
+                
+            </div>
         </div>
-
-   <h1 class="titulo" >San Antonio,<br> El mayor puerto de Chile</h1>
-    <div>
-
-        <p class="vermas">Ver más fotos y videos</p>
+      
+        <h1 class="titulo" >San Antonio,<br>el mayor puerto de Chile</h1>
+        <div class="vermas"><img src="./img/camara.png" alt="camara" style="width: 40px;height: 40px;margin-top: 12px;"> <p>Ver más fotos y videos</p></div>
+        <br>
+        <br>
         <div>
             <ul class="lista3">
                 <li>Inicio</li>
@@ -46,13 +55,30 @@
                 <li>Asuntos <br> Públicos</li>
             </ul>
         </div>
+        
     </div>
+    <br>
+    <br>
+    <br>
     <div class="cd">
         <h1 style="font-size: 30px; text-align: center; font-family: 'Times New Roman';">CIFRAS DESTACADAS</h1>
-        <ul class="ndnav">
-            <li>19.934.166</li> <p>TONELADAS MOVILIZADAS TOTALES</p>
-            <li>+75.000</li> <p>PASAJEROS RECIBIDOS</p>
-            <li>$8.157.000</li> <p>DE PESO EN PROYECTOS MEDIOAMBIENTALES</p>
+        <ul class="facts">
+                <li class="fact fact--button">
+                    <h3 class="fact__number"  style="color:rgb(32, 170, 204);">19.934.166</h3>
+                    <span class="fact__label" style="color: rgb(151, 146, 146);">toneladas movilizadas totales.</span>
+                    <span class="fact__icon"><img src="./img/casaicono.png" alt="container" style="width: 70px; height: 70px;object-fit: contain;"></span>
+                </li>
+                <li class="fact">
+                    <h3 class="fact__number" style="color: rgb(32, 170, 204);">+75.000</h3>
+                    <span class="fact__label" style="color:rgb(151, 146, 146);">pasajeros recibidos.</span>
+                    <span class="fact__icon"><img src="./img/Barcoicono.png" alt="barco" style="width: 70px; height: 70px; object-fit: contain;"></span>
+                </li>
+                <li class="fact">
+                    <h3 class="fact__number" style="color: rgb(32, 170, 204);">$8.157.000</h3>
+                    <span class="fact__label" style="color:rgb(151, 146, 146);">de pesos en proyectos medioambientales.</span>
+                    <span class="fact__icon"><img src="./img/hojasicono.png" alt="hoja" style="object-fit: contain; width: 70px;"></span>
+                </li>
+
         </ul>
     </div>
     <br>
@@ -65,82 +91,136 @@
             <p style="text-align: center; font-size: 25px;">Comprometidos con nuestros vecinos, el medio ambiente y el desarrollo <br> 
                 sustentable de nuestra comuna</p>
         </div>
-        <div style="background-color: white;">
+        <div>
             <div class="imgsos">
-                <div><img src="./img/a.jpg" alt="pajarito"style="width: 150px; height: 150px;"></div>
-                <div><img src="./img/b.jpg" alt="Paseo"style="width: 150px; height: 150px;"></div>
-                <div><img src="./img/c.jpg" alt="teatro"style="width: 150px; height: 150px;"></div>
+                <div><img src="./img/pajaro2.jpg" alt="pajaro2" style="width: 200px; height: 150px; padding: 10px;"></div>
+                <div><img src="./img/mar.jpg" alt="mar" style="width: 200px; height: 150px; padding: 10px;"></div>
+                <div><img src="./img/ORquets.jpg" alt="orquesta" style="width: 200px; height: 150px; padding: 10px;"></div>
             </div>
             <div class="parrafo4">
-                <p>Estudio de avifauna en las lagunas de Llolleo y la desmbocadura del río Maipo</p>
-                <p>Paseo Bellamar, principal atractivo turístico del borde costero</p>
-                <p>Organización y apoyo en actividades culturales de relevancia en nuestra comuna</p>
+                <p style="padding: 30px; margin-left: 20%;">Estudio de avifauna en las lagunas de Llolleo y la desmbocadura del río Maipo</p>
+                <p style="padding: 30px;">Paseo Bellamar, principal atractivo turístico del borde costero</p>
+                <p style="padding: 30px; margin-right: 20%;">Organización y apoyo en actividades culturales de relevancia en nuestra comuna</p>
             </div>
+        
         </div>
-        <div style="text-align: center;">
-            <input style="background-color: white; padding: 10px;" type="button" value="Minisitio para niños y escolares">
-            <input style="background-color: white; padding: 10px;" type="button" value="San Antonio y paseo ballenar">
+        <div style="text-align: center;margin-bottom:40px;">
+            <input style="background-color: black; color: white; padding: 10px;" type="button" value="Minisitio para niños y escolares">
+            <input style="background-color: black; color: white; padding: 10px;" type="button" value="San Antonio y paseo ballenar">
         </div>
     </div>
-<br><br><br><br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
     <div class="destacamos">
-        <div class="d2">
-            <img src="" alt="satelite">
-            <h4>18 enero</h3>
-            <h3>Puerto san antonio</h3>
-            <p>además asdas</p>
-            <a href="#">continuar leyendo ></a>
-        </div>
-        <div class="prensa">
-            <a href="#">ver más noticias ></a>
-            <img src="" alt="barco">
-            <h4>11 enero</h3>
-            <h3>Puerto san antonio</h3>
-            <img src="" alt="trabajadores">
-            <h4>11 enero</h3>
-                <h3>Puerto san antonio</h3>
-            <a href="#">continuar leyendo ></a>
-        </div>
-        <div class="rrss">
-            <h4>Puerto san antonio</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum quaerat similique quo officiis
-                    cum dolore voluptas provident incidunt quibusdam facere, minima est, distinctio perferendis placeat, 
-                    enim voluptates soluta vel?
-                </p>
-        </div>
-        <div>
-            <p>siguenos también en:</p>
-        </div>
+            <h1 style="text-align: left;">DESTACAMOS</h1>
+            <div class="d2">
+            <img src="./img/puertoSA.jpg" alt="puertoSA"style="width: 450px; height: 300px; padding: 10px;">
+   
+            <div class="d3" >
+            <h4>18 de enero</h4>
+           <p><h3>Puerto San antonio destaca avances del proyecto Puerto Exterior en su reporte anual de sostenibilidad</h3>
+            Además durante 2017, los concesionarios del puerto movilizaron casi 1.296.890 contenedores.</p>
+            <br>
+            <br>
+            <br>
+            <a href="#">CONTINUAR LEYENDO ></a>
     </div>
-    <div class="transparencia">
-        <img src="" alt="puerto">
-        <div>
-            <h5>Licitaciones en curso</h5>
+    </div>
+
+    <div class="noticias"style="display:flex;">
+    <div class="prensa">
+            <div style="display: flex;">
+            <h1 style="text-align: left">PRENSA</h1>
+            <a href="#"style="float: right;">VER MÁS NOTICIAS ></a>
+    </div>
+    <div style="display: flex;">
+            <img src="img/BARCO.jpg" alt="barco"style="width: 200px; height: 150px; padding: 10px;">
+            <h4>11 DE ENERO</h4>
+            <h3>Puerto san antonio alcanza nuevo máximo histórico al transferir más de 22 millones de toneladas</h3>
+    </div>
+
+    <div style="display: flex;">
+            <img src="img/pescadores.jpg" alt="trabajadores"style="width: 200px; height: 150px; padding: 10px;"></div>
+            <h4>05 DE ENERO</h4>
+            <h3>Puerto San Antonio continúa con su programa de visitas guíadas a la bahía</h3>
+            <a href="#">continuar leyendo></a>
+        </div>
+    
+
+    <div class="rrss">
+    <div>
+    <h1 style="text-align:left">REDES SOCIALES</h1>
+    </div>
+        <div style="display:flex;">
+        <div class="r2">
+            <img src="img/cruseros.jpg" alt="barco"style="width: 200px; height: 150px; padding: 10px;"></div>
+        </div>
+        
+        <div class="r3">
+            <h4>Puerto san antonio</h3>
+            <p> En puerto San Antonio(17/02/29), el Crucero Seven Seas Explorer, de 224 metros esloca y banderas de Islas Marshall, se encuentra
+            desde ayer en el concesionario Puerto Central, con zarpe programado para hoy a las 18 Hrs </p>
+            <p>#San Antonio #ElpuertodeChile</p>
+            <p>Fotos: @Ruben_JeriaH</p> 
+            <p> #cruceros #verano #Chile #cruiseship #port #cruises</p>
+        </div>
+        </div>         
+         <div class="sig">
+                <p>Siguenos también en:</p>
+                <p><img src="img/twitter.png" alt="twitter"style="width: 20px; height: 20px; padding: 0px;"></div>@puerto antonio</p>
+                <p><img src="img/facebook.png" alt="Facebook"style="width: 20px; height: 20px; padding: 0px;"></div>puerto antonio</p>
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        </div>
+
+        <h1 style="margin-left:3%;">TRANSPARENCIA</h1>
+        <div class="transparencia">
+        
+        <div class="t2" style="margin-top: 80px;">
+        <img src="img/T.jpg" alt="puerto"style="width: 400px; height: 250px; padding: 10px;"></div>
+        
+        <div class="t3">
+            <h5>LICITACIONES EN CURSO </h5>
             <a href="#">Ver todas ></a>
-            <li>Licitación</li>
-            <p>resumen</p>
-            <a href="#">>Alcance</a>
-            <a href="#">>Publicación</a>
-            <li>Licitación</li>
-            <p>diseño</p>
-            <a href="#">>Alcance</a>
-            <a href="#">>Publicación</a>
-            <li>Licitación</li>
-            <p>contratación</p>
-            <a href="#">>Alcance</a>
-            <a href="#">>Publicación</a>
+            <li>LICITACIÓN PÚBLICA</li>
+            <p>Resumen especificaciones técnicas para el dearollo de tareas de mantención preventiva sistema VCMOC</p>
+            <a href="#">>ALCANCE</a>
+            <a href="#">>PUBLICACIÓN</a>
+            <li>LICITACIÓN PÚBLICA</li>
+            <p>Diseño, implementación y mantención sitio web corporativo Empresa Portuaria San Antonio</p>
+            <a href="#">>AlCANCE</a>
+            <a href="#">>PUBLICACIÓN</a>
+            <li>LICITACIÓN PÚBLICA</li>
+            <p>Contratación de servicios de mantención preventiva y arriendo de equipos para CCTV de la Empresa Portuaria San Antonio</p>
+            <a href="#">>ALCANCE</a>
+            <a href="#">>PUBLICACIÓN</a>
         </div>
     </div>
     <footer>
+    <div class="footer" style="display: flex;color:white;padding:5%;">
         <div>
-            <img src="./img/logo.png" alt="logo"style="width: 150px; height: 100px;">
-            <p>av barros luco</p>
-            <p>san antonio, chile</p>
-            <p>tel. (56)2342353</p>
-            <p>fax. (56)1231232</p>
+            <img src="img/logo.png" alt="logo">
+            <p>Av Barros Luco N°1613,of.8 A</p>
+            <p>San antonio- Chile</p>
+            <p>Tel. (56)35 2586000</p>
+            <p>Fax. (56)35 2586010</p>
         </div>
         <div>
+            <ul>
             <a href="#">Inicio</a>
             <a href="#">Sistema Portuario</a>
             <a href="#">Puerto San Antonio</a>
@@ -151,6 +231,7 @@
             <a href="#">Puerto Sustentable</a>
             <a href="#">Transparencia</a>
             <a href="#">Asuntos Públicos</a>
+            </ul>
         </div>
         <div>
             <a href="#">Noticias</a>
@@ -158,18 +239,18 @@
             <a href="#">Contacto</a>
             <a href="#">Mapa del sitio</a>
             <a href="#">Minisitios para niños y escolares</a>
-            <a href="#">San antonio y paseo ballenar</a>
+            <a href="#">San antonio y paseo ballenar Bellamar</a>
             <a href="#">Trabaja con nosotros</a>
             <a href="#">Denuncias</a>
+        </ul>
         </div>
         <div>
-            <h3>Nuestros Concesionarios</h3>
-            <img src="./img/Sti.png" alt="sti"style="width: 150px; height: 100px;">
-            <img src="./img/Puertopanul.jfif" alt="sti"style="width: 150px; height: 80px;">
-            <img src="./img/puertocentral.jfif" alt="sti"style="width: 160px; height: 80px;">
-
+            <h3>NUESTROS CONCESIONARIOS</h3>
+            <img src="img/Sti.png" alt="logo3"style="width: 150px; height: 100px; padding: 10px;">
+            <img src="img/Puertopanul.jfif" alt="logo4"style="width: 170px; height: 100px; padding: 10px;">
+            <img src="img/puertocentral.jfif" alt="logo5"style="width: 150px; height: 100px; padding: 10px;">
+        </div>
         </div>
     </footer>
-
 </body>
 </html>

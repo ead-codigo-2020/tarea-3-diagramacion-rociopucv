@@ -1,25 +1,36 @@
-.algo:hover{
-    padding: 123px;
-}
 body{
-    padding: 0; 
-    margin: 0; 
-    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family:sans-serif;
 }
-
-
+.imagen-logo{
+    width: 220px;
+    height: 160px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 0px;
+}
+.lista-icons{
+    margin-left:15%;
+}
+@media only screen and (max-width: 900px) {
+    .lista-icons{
+        margin-left: 60%;
+    }
+}
 .titulo{
      font-size: 60px; 
      font-family:  sans-serif; 
      color: white;
+     padding: 40px;
+     padding-right: 40%;
+     padding-top: 10%;
 }
 .lista1{
     display: flex;
     overflow: hidden;
-    background-color:rgb(17, 20, 37);
-    text-align: left;
-    margin-top: 5px;
-    
+    background-color:black;
+    text-align: left;   
 }
 .lista1 li{
     float: left;
@@ -29,12 +40,12 @@ body{
     text-decoration: none;
     font-size: 17px;
     font-style: normal;
-    
+    text-align: left;
 }
 .lista2 li{
     float: right;
     display: block;
-    color:white(161, 62, 62);
+    color:white;
     padding: 5px 20px;
     text-decoration: none;
     font-size: 17px;
@@ -43,66 +54,223 @@ body{
     display: flex;
     padding-top: 20px;
     margin-right: 10px;
-    
-    }
+    color: white;
+    background-color: black;
 
-    .lista3{
-        display: flex;
-        background-color:rgba(0, 0, 0, 0.5);
-        font-style: normal;
-    }
-    .lista3 li{ 
-        float: left;
-      display: block;
-      color:white;
-      text-align: center;
-      padding: 14px 10px;
-      text-decoration: none;
-      font-size: 17px;
-      border: 1px solid grey;
-    }
-    .lista3 li:hover{
-    background-color:rgb(32, 170, 204);
-    
-    }
-.container{
-    margin: 3px; 
-    background:url(./img/puertoSA.jpg)no-repeat center center fixed;
-    background-size: cover;
-    width:1342px;
-    height:600px;
 }
-.ndnav li{display: inline; 
+.lista3{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: auto;
+    font-style: normal;
+    float: center;
+
+}
+.lista3 li{ 
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+.lista3 li:hover{
+    background-color:rgb(32, 170, 204);
+}
+.vermas{
+    display: flex;
+    float: right;
+    color: white;
+    margin-bottom: 40%;
+    padding-right: 40px;
+    font-style: unset;
+    font-size: 20px; 
+}
+.container{
+    background: url(img/puertoSA.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/*BARRA NAVEGACIÓN*/
+.ndnav{
+    display: flex;
+}
+.ndnav p{
+    display: flex;
+}
+.ndnav li{
+    display: inline; 
     list-style: none; 
-    color: rgb(22, 172, 177); 
+    color: rgb(32, 170, 204); 
     font-weight: bold; 
     font-size: 60px;
 }
+
+/*SOSTENIBILIDAD*/
+
 .parrafo4{ 
+        text-align: center;
+        display: inline-flex;
+        margin: auto;
+        position: relative;
+    }
+.imgsos{
     text-align: center;
-}
-.imgsos{ 
-    margin:0px; 
-    background:url(./img/4.jpg)no-repeat center center fixed;
-    white:100px;
-    height:500px;
-    background-size: cover;
-    text-align: center;
+    display: inline-flex;
+    margin: auto;
+    position: relative;
 }
 .cd{
     margin: 40px; 
     background-color: white;
 }
 .sostenibilidad{
-    padding: 5px;
+    background: url(img/atardecer2.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/*DESTACAMOS*/
+.destacamos{
+    background-color:rgb(235, 235, 235); 
+    padding: 40px;
+}
+.d2{
+   display: flex;
+   margin: auto;
+}
+.d3{
+    margin-left:30px;
+    margin-right: 30px;
+}
+
+/*TRANSPARENCIA*/
+.transparencia{
     background-color: white;
+    padding: 40px;
+    display: flex;
+}
+
+.t2{
+    float:left;
+}
+
+.t3{
+float: right;
+margin-left:10%;
+}
+
+/*REDES SOCIALES*/
+.rrss{
+    float:right;
+    margin-left:10%;
+}
+
+.r2{
+display: flex;
+margin:auto;
+}
+
+.r3{
+margin-left: 30px;
+margin-right: 30px;
+}
+
+/*PRENSA */
+.sig{
+    float: right;
+    font-size: 15px;
+    padding-left:70px;
 
 }
-.destacamos{
-    background-color: rgb(202, 202, 202); 
-    padding: 40px;
+/*CIFRA */
+.facts-row{
+    position: relative;
+    min-height:100vh;
 }
-.transparencia{
-    background-image:url(./img/a.jpg) ; 
-    padding: 40px;
+.facts__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.facts-row .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    min-height: 100vh;
+}
+.facts-row__title {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+/* Listado de cifras */
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+/* Cada cifra */
+.fact {
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: auto auto;
+    column-gap: 1rem;
+    flex: 33%;
+    max-width: 33%;
+    margin-bottom: 8rem;
+}
+.fact__icon {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    height: 70px;
+    float: center;
+    align-items: center;
+}
+.fact__number,
+.fact__label {
+    grid-column: 2/3;
+}
+.fact__label {
+    text-transform: uppercase;
+}
+.fact__number {
+    font-size: 3rem;
+}
+
+/*FOOTER*/
+
+.footer{grid-area:footer;
+    background-color: #000000;
+    min-height: 100px;
+    column-gap: none;
+    row-gap:none;
+    display:center;
+}
+
+.footer ul{
+    display: inline-table;
+    padding:80px;
+}
+
+/*RESPONSIVE*/
+
+.responsive{
+    width:100%;
+    height: auto;   
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+    padding:0px;
+    margin: 0px;
 }

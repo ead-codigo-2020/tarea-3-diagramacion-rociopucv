@@ -1,0 +1,13 @@
+[1008/211813.152:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\rocio\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ea2feafc-abd9-40c0-920e-197af51e3020: El sistema no puede encontrar la ruta especificada. (0x3)
+[1008/211813.152:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1008/212147.495:ERROR:process_info.cc(359)] UncheckedAllocate
+[1008/213226.235:ERROR:process_info.cc(359)] UncheckedAllocate
+[1008/215316.194:ERROR:process_info.cc(359)] UncheckedAllocate
+[1008/215450.531:ERROR:process_info.cc(359)] UncheckedAllocate
+[1008/220629.911:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1008/231113.434:ERROR:process_info.cc(359)] UncheckedAllocate
+[1008/231116.905:ERROR:process_info.cc(359)] UncheckedAllocate
+[1009/010754.914:ERROR:process_info.cc(359)] UncheckedAllocate
+[1009/012321.200:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\rocio\AppData\Local\Google\Chrome\User Data\Crashpad\reports\9d5a90a2-a4e3-4a8e-bd73-176398c3e4c6.dmp: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)
+[1009/013459.620:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1009/014045.003:ERROR:process_info.cc(359)] UncheckedAllocate
