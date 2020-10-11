@@ -4,14 +4,14 @@ body{
     font-family:sans-serif;
 }
 .imagen-logo{
-    width: 220px;
-    height: 160px;
-    margin-left: 20px;
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
     position: absolute;
     margin-top: 0px;
 }
 .lista-icons{
-    margin-left:15%;
+    margin-left:20%;
 }
 @media only screen and (max-width: 900px) {
     .lista-icons{
@@ -36,7 +36,7 @@ body{
     float: left;
     display: block;
     color:white;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 17px;
     font-style: normal;
@@ -46,7 +46,7 @@ body{
     float: right;
     display: block;
     color:white;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -87,6 +87,7 @@ body{
     padding-right: 40px;
     font-style: unset;
     font-size: 20px; 
+    cursor: pointer;
 }
 .container{
     background: url(img/puertoSA.jpg) no-repeat center center fixed;
@@ -104,7 +105,7 @@ body{
 .ndnav li{
     display: inline; 
     list-style: none; 
-    color: rgb(32, 170, 204); 
+    color: rgb(28, 195, 236); 
     font-weight: bold; 
     font-size: 60px;
 }
@@ -131,9 +132,9 @@ body{
     background: url(img/atardecer2.jpg) no-repeat center center fixed ;
     background-size: cover;
     background-attachment: scroll;
+    color: white;
     padding: 10px;
     text-align: center;
-    color: white;
 }
 /*DESTACAMOS*/
 .destacamos{
@@ -144,9 +145,20 @@ body{
    display: flex;
    margin: auto;
 }
+
+.img-puertoSA{
+margin-left:40px;
+padding:0px ;
+}
+
+.texto-d3{
+margin-left:30px;
+}
+
 .d3{
-    margin-left:30px;
-    margin-right: 30px;
+    background-color: white;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 /*TRANSPARENCIA*/
@@ -165,6 +177,17 @@ float: right;
 margin-left:10%;
 }
 
+.links> a{
+
+color:rgb(32,170,204);
+text-decoration: none;
+float:right;
+}
+
+.tra-1{
+    float:right;
+}
+
 /*REDES SOCIALES*/
 .rrss{
     float:right;
@@ -177,15 +200,28 @@ margin:auto;
 }
 
 .r3{
-margin-left: 30px;
+padding-left: 30px;
 margin-right: 30px;
+background-color: white;
 }
 
 /*PRENSA */
+.titulo-prensa{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.vermas-noticias{
+    float: right;
+    font-size:15px;
+    padding-left:70px;
+}
 .sig{
     float: right;
-    font-size: 15px;
-    padding-left:70px;
+    margin-top:10px;
+    margin-right:40px;
 
 }
 /*CIFRA */
@@ -217,6 +253,7 @@ margin-right: 30px;
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
+    margin-left: 140px;
 }
 /* Cada cifra */
 .fact {
@@ -248,7 +285,8 @@ margin-right: 30px;
 
 /*FOOTER*/
 
-.footer{grid-area:footer;
+.footer{
+    grid-area:footer;
     background-color: #000000;
     min-height: 100px;
     column-gap: none;
@@ -261,6 +299,11 @@ margin-right: 30px;
     padding:80px;
 }
 
+.nc{
+    background-color:darkgray;
+    text-align: center;
+}
+
 /*RESPONSIVE*/
 
 .responsive{
@@ -268,7 +311,7 @@ margin-right: 30px;
     height: auto;   
 }
 
-.responsive{
+.responsive1{
     width: 100%;
     height: auto;
     padding:0px;
