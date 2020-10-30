@@ -132,6 +132,7 @@ body{
     background-color:rgb(235, 235, 235); 
     padding: 20px;
 }
+
 .d2{
    display: flex;
    margin: auto;
@@ -143,7 +144,7 @@ padding:0px ;
 }
 
 .texto-d3{
-margin-left:30px;
+margin-left:40px;
 }
 
 .d3{
